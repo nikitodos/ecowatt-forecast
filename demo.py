@@ -41,7 +41,7 @@ def generate_synthetic_wind_production(
       - random zero-production periods (maintenance / low-wind events)
     """
     rng = np.random.default_rng(seed)
-    idx = pd.date_range(start=start, end=end, freq="1H", inclusive="left")
+    idx = pd.date_range(start=start, end=end, freq="1h", inclusive="left")
     n = len(idx)
 
     day_of_year = idx.day_of_year / 365.0

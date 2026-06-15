@@ -436,7 +436,7 @@ def load_production_db(
         # Resample to hourly averages for model training
         df = (
             df.set_index("Timestamp")["value"]
-            .resample("1H").mean()
+            .resample("1h").mean()
             .reset_index()
         )
         logger.info(f"Loaded {len(df)} production rows from database.")
