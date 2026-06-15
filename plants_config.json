@@ -1,0 +1,26 @@
+[
+  {
+    "plant_id": "WIND_PLANT_A",
+    "lat": 40.00,
+    "lon": 16.00,
+    "plant_type": "wind",
+    "rated_power_kw": 39000,
+    "forecast_horizon_days": 7
+  },
+  {
+    "plant_id": "WIND_PLANT_B",
+    "lat": 41.35,
+    "lon": 14.92,
+    "plant_type": "wind",
+    "rated_power_kw": 14700,
+    "forecast_horizon_days": 7
+  },
+  {
+    "plant_id": "SOLAR_PLANT_C",
+    "lat": 43.80,
+    "lon": 11.25,
+    "plant_type": "solar",
+    "rated_power_kw": 5000,
+    "forecast_horizon_days": 5
+  }
+]

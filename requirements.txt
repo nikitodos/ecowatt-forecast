@@ -1,0 +1,36 @@
+# EcoWatt – Python dependencies
+# Tested with Python 3.11+
+
+# --- Core scientific stack ---
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# --- ML models ---
+xgboost>=2.0.0
+lightgbm>=4.0.0
+catboost>=1.2.0
+scikit-learn>=1.3.0
+
+# --- Weather data ---
+openmeteo-requests>=1.0.0
+requests>=2.31.0
+requests-cache>=1.0.0
+retry-requests>=1.0.0
+
+# --- Utilities ---
+joblib>=1.3.0
+schedule>=1.2.0
+psutil>=5.9.0
+
+# --- Visualisation ---
+matplotlib>=3.7.0
+
+# --- Database (optional) ---
+# Uncomment if you want to connect to a SQL Server database:
+# SQLAlchemy>=2.0.0
+# pyodbc>=4.0.0
+
+# --- Solar geometry (optional, for PV feature extension) ---
+# astral>=3.2.0
+# pvlib>=0.10.0
