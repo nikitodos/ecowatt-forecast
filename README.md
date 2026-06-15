@@ -12,7 +12,7 @@ of renewable power plants using gradient-boosting models trained on
 meteorological NWP forecasts.  
 The pipeline covers the full lifecycle: **data ingestion → feature engineering → training → inference → output**.
 
-<img src="output/forecast_plot_DEMO_WIND_20260615_232138.png" width="600">
+<img src="demo_output/forecast_plot_DEMO_WIND_20260615_232138.png" width="600">
 
 ### Key features
 
